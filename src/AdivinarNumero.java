@@ -18,7 +18,7 @@ public class AdivinarNumero {
                 System.out.println("Te has quedado corto.");
             }
             else  {
-                System.out.println("Has acertado!!");
+                System.out.println("Has acertado en "+contador+" intentos");
                 acierta = true;
             }
         }
