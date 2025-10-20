@@ -13,6 +13,7 @@ public class Venta {
         System.out.println("Ingrese el dinero");
         dinero = leer.nextInt();
     }
-        System.out.println("Comprado");
+    int cambio = dinero-precio;
+        System.out.println("Aqui tienes tu refresco y tu cambio: "+cambio+"€");
     }
 }
